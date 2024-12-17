@@ -10,7 +10,6 @@ export default function SliderComp({
     appearance: "none",
     width: "100%",
     height: 25,
-    // background: !bgColor ? "lightgray" : bgColor,
     background: "lightgray",
     courser: "pointer",
     opacity: 0.7,

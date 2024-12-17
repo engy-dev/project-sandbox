@@ -14,14 +14,14 @@ export default function SliderApp() {
 
   if (slideValue < 25) {
     bgColor = "red";
-    textColor = "red";
+    textColor = "blue";
   }
-  if (slideValue < 25 && slideValue <= 50) {
+  if (slideValue > 25 && slideValue <= 50) {
     bgColor = "blue";
   }
-  if (slideValue > 51 && slideValue <= 75) {
+  if (slideValue > 50 && slideValue <= 75) {
     bgColor = "green";
-    textColor = "white";
+    textColor = "grey";
   }
   if (slideValue > 75) {
     bgColor = "orange";
